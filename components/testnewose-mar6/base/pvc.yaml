@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app.kubernetes.io/instance: testnewose-mar6
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: testnewose-mar6
+  name: testnewose-mar6
+spec:
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 100Gi

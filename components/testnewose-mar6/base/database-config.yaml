@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: testnewose-mar6-database-config
+data:
+  VECTORDB_HOST: "testnewose-mar6-database"
+  VECTORDB_PORT: ""
